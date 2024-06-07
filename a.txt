@@ -1,7 +1,7 @@
 server {
     # Replace the example <domain> with your domain name or IP address
     listen 80;
-    server_name 103.252.88.150;
+    server_name nodzhost.top;
 
 
     root /var/www/pterodactyl/public;
