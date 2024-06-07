@@ -20,7 +20,7 @@ server {
 
     sendfile off;
 
-    # SSL Configuration
+    # SSL Configuration (comentado para não carregar certificados inexistentes)
     # ssl_certificate /etc/letsencrypt/live/nodzhost.top/fullchain.pem;
     # ssl_certificate_key /etc/letsencrypt/live/nodzhost.top/privkey.pem;
     ssl_session_cache shared:SSL:10m;
